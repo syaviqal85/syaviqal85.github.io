@@ -1,63 +1,67 @@
-*{
+* {
         margin: 0;
         padding: 0;
         font-family: 'Vesper Libre', serif;
-        color:white;
+        color: white;
 }
-body{
+
+body {
         background-color: #2B2A4C;
 }
 
 a,
-button{
+button {
         cursor: pointer;
-        color:black;
+        color: black;
 }
-nav{
+
+nav {
         width: 100%;
         position: fixed;
         background-color: #010101;
         z-index: 1;
-        box-shadow: 0px 10px 10px -2px rgba(0,0,0,0.1);
+        box-shadow: 0px 10px 10px -2px rgba(0, 0, 0, 0.1);
 }
 
-.logo p{
+.logo p {
         font-size: 25px;
         font-family: 'Vesper Libre', serif;
-        color:white;
+        color: white;
 }
 
-.navbar{
+.navbar {
         padding: 20px 100px;
         display: flex;
         justify-content: space-between;
         align-items: center;
 }
-.Logo{
+
+.Logo {
         width: 30px;
         height: 30px;
 }
-.navbar .right-row{
+
+.navbar .right-row {
         display: flex;
         justify-content: center;
         align-items: center;
         gap: 10px;
 }
 
-.divider{
+.divider {
         width: 10px;
         height: 20px;
         background-color: white;
 }
 
-.nav-menu ul{
+.nav-menu ul {
         display: flex;
         gap: 10px;
         list-style-type: none;
 }
 
-.nav-menu ul Li a{
-        color:white;
+.nav-menu ul Li a {
+        color: white;
         text-decoration: none;
         font-family: 'Vesper Libre', serif;
         font-size: 15px;
@@ -65,13 +69,13 @@ nav{
         font-weight: 500;
 }
 
-.nav-social-media ul{
+.nav-social-media ul {
         display: flex;
         gap: 10px;
         justify-content: center;
 }
 
-.nav-social-media ul li{
+.nav-social-media ul li {
         margin-top: 5px;
         display: flex;
         align-items: center;
@@ -79,28 +83,29 @@ nav{
 
 }
 
-.divider{
+.divider {
         width: 1px;
         height: 20px;
         background-color: white;
 }
 
-.main-hero{
+.main-hero {
         padding-top: 50px;
         height: 80vh;
         text-align: center;
         font-family: 'Vesper Libre', serif;
         display: flex;
-        flex-direction:column;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
         gap: 20px;
 }
 
-.main-hero h1{
-        font-size: 70px;
+.main-hero h1 {
+        font-size: 80px;
 }
-.about{
+
+.about {
         padding: 70px;
         box-sizing: border-box;
         background-color: #252934;
@@ -110,52 +115,55 @@ nav{
         flex-direction: row-reverse;
         align-items: center;
         justify-content: space-between;
-        border-radius: 0px -9px 10px -3px rgba(0,0,0,0.1), 0px -9px 10px -3px rgba(0,0,0,0.1);  
+        border-radius: 0px -9px 10px -3px rgba(0, 0, 0, 0.1), 0px -9px 10px -3px rgba(0, 0, 0, 0.1);
 }
 
-.img-hero{
+.img-hero {
         width: 25%;
 }
-.img-hero img{
+
+.img-hero img {
         width: 300px;
         height: 300px;
         object-fit: cover;
         border-radius: 100%;
 }
 
-.desc-hero{
+.desc-hero {
         width: 63%;
         color: white;
 }
 
-.desc-hero h1{
+.desc-hero h1 {
         font-family: 'Vesper Libre', serif;
-        font-size: 40px;
+        font-size: 65px;
 }
 
-        .desc-hero h2{
-                margin: 7px 0px;
-                font-family: 'Vesper Libre', serif;
-                font-size: 25px;
-}
-        .desc-hero p{
-                line-height: 22px;
-                letter-spacing: 1.5px;
-                text-align: justify;
-                font-family: 'Vesper Libre', serif;
-                font-size: 25px;
+.desc-hero h2 {
+        margin: 7px 0px;
+        font-family: 'Vesper Libre', serif;
+        font-size: 35px;
 }
 
-.left-bottom-row{
+.desc-hero p {
+        line-height: 32px;
+        letter-spacing: 1.5px;
+        text-align: justify;
+        font-family: 'Vesper Libre', serif;
+        font-size: 30px;
+}
+
+.left-bottom-row {
         display: flex;
         margin-top: 20px;
         gap: 10px;
 }
-.left-bottom-row .hire-button{
+
+.left-bottom-row .hire-button {
         background-color: #3b54df;
         border: none;
         padding: 5px 12px;
-        font-size: 13px;
+        font-size: 18px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -170,7 +178,7 @@ nav{
         background-color: black;
         border: none;
         padding: 5px 12px;
-        font-size: 13px;
+        font-size: 18px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -180,22 +188,26 @@ nav{
         border-radius: 5px;
         font-family: 'Vesper Libre', serif;
 }
+
 .container-skill {
-        background-color:black;
+        background-color: black;
         text-align: center;
         padding: 70px;
-        color:white     ;
+        color: white;
 }
 
 .header-skill {
         font-family: 'mulish';
 }
+
 .header-skill p:nth-child(1) {
-        margin-top: 10px;       
+        margin-top: 10px;
 }
+
 .header-skill p:last-child {
         margin-top: 10px;
 }
+
 .skill {
         margin: 30px auto;
         display: flex;
@@ -211,20 +223,24 @@ nav{
         border-radius: 10px;
         box-sizing: border-box;
         padding: 20px;
-        transition: 0.3s ease;
+        transition: 0.5s ease;
 }
+
 .card-skill:hover {
         transform: translateY(-5px);
         box-shadow: 5px 5px 5px;
 }
+
 .icon-skill {
-        font-size: 70px;
+        font-size: 85px;
 }
+
 .desc-skill h2 {
-        font-size: 16px;
+        font-size: 25px;
 }
+
 .desc-skill p {
-        font-size: 12px;
+        font-size: 15px;
         margin-top: 10px;
 }
 
@@ -257,19 +273,20 @@ nav{
         gap: 20px;
 }
 
-.project:nth-child(odd){
+.project:nth-child(odd) {
         flex-direction: row-reverse;
 }
 
-.desc-project h1{
+.desc-project h1 {
         text-decoration: underline #3b54df;
         line-height: 100px;
 }
 
-.desc-projectp{
+.desc-projectp {
         margin: 15px auto;
 }
-.read-more{
+
+.read-more {
         width: fit-content;
         background-color: transparent;
         color: white;
@@ -282,76 +299,75 @@ nav{
         height: 200px;
         border-radius: 150px;
         object-fit: cover;
-        box-shadow: 0px 0px 15px -3px rgba(29,29,29,0.5) 0px 0px 15px -3px rgba(29,29,29,0.5);
-        transition:transform 0.5s ease;
+        box-shadow: 0px 0px 15px -3px rgba(29, 29, 29, 0.5) 0px 0px 15px -3px rgba(29, 29, 29, 0.5);
+        transition: 0.5s ease;
 }
 
-.img-project img:hover {
-        transform: scale(1.1);
-        z-index: 3;
-        position:relative;
-}
-
-.img-project img{
+.img-project img {
         width: 300px;
         height: 200px;
         border-radius: 150px;
         object-fit: cover;
-        box-shadow: 0px 0px 15px -3px rgba(29,29,29,0.5) 0px 0px 15px -3px rgba(29,29,29,0.5);
-        transition:transform 0.3s ease;
+        box-shadow: 0px 0px 15px -3px rgba(29, 29, 29, 0.5) 0px 0px 15px -3px rgba(29, 29, 29, 0.5);
+        transition: transform 0.5s ease;
         position: relative;
 }
 
-.footer{
+.footer {
         background-color: #252934;
         padding: 120px 0px 40px;
         text-align: center;
         color: white;
 }
-.footer h1, 
-.footer p{
+
+.footer h1,
+.footer p {
         margin: 10px auto;
+        font-size: 25px;
 }
 
-@media only screen and(max-width: 1000px){
-        .about{
-                padding: 50px;
+@media only screen and(max-width: 720px) {
+        .about {
+                padding: 100px;
                 box-sizing: border-box;
                 background-color: #010101;
-                width: 85%;
+                width: 100%;
                 margin: 50px auto 100px;
                 display: flex;
-                flex-direction:column;
+                flex-direction: column;
                 align-items: center;
                 justify-content: space-between;
                 border-radius: 10px;
-                box-shadow: 0px -9px 10px -3px rgba(0,0,0,0.1) 0px 10px 10px -3px rgba(0,0,0,0.1);
+                box-shadow: 0px -9px 10px -3px rgba(0, 0, 0, 0.1) 0px 10px 10px -3px rgba(0, 0, 0, 0.1);
         }
-        .img-hero{
+
+        .img-hero {
                 width: fit-content;
         }
-        .desc-hero{
-                width: 90%;
+
+        .desc-hero {
+                width: 100%;
                 text-align: center;
         }
-        .container-project{
+
+        .container-project {
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
                 align-items: center;
         }
-        .project:nth-child(odd), .project:nth-child(even){
+
+        .project:nth-child(odd) 
+        {
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
                 align-items: center;
         }
-        .desc-project{
-                width: 90%;
+
+        .desc-project {
+                width: 100%;
                 margin-top: 120px;
         }
-        
-} 
 
-
-
+}
